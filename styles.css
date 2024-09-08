@@ -1,0 +1,56 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #090d4f;
+    padding: 20px;
+}
+
+/* Form container */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+/* Resume container */
+.resume-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+
+}
+
+/* Input fields and labels */
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #195ef1;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.btn {
+    background-color: #062671;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0a7ebd;
+}
+
+/* Resume content styling */
+.resume-container h3 {
+    margin-top: 20px;
+}
